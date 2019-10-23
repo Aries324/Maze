@@ -1,0 +1,39 @@
+
+:root {
+    box-sizing: border-box;
+}
+
+
+.cell {
+    width: 25px;
+    height: 25px;
+    background: cornflowerblue;
+    color: transparent;
+    padding:0;
+    display: flex;
+}
+
+.W {
+   
+    background: purple;
+
+}
+.row { 
+    display: flex;
+}
+
+.player {
+    width: 25px;
+    height: 25px;
+    background: green;
+    position: relative;
+    display: inline-block;
+    /* border-radius: 50%; */
+    margin: 0;
+    padding:0;
+}
+.S {
+
+    background: black;
+    position: relative;
+}
